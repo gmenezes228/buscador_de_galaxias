@@ -1,0 +1,18 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: 200px; /* Ajusta la altura para que sea cuadrada */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción y cubra el área */
+}
+
+.card-body {
+    flex-grow: 1; /* Esto asegura que el cuerpo de la tarjeta ocupe todo el espacio disponible */
+}
